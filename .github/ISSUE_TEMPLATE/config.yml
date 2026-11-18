@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Send feedback in the bot
+    url: https://t.me/obsidian_clipper_md_bot
+    about: Send /feedback to the bot to reach the developers privately.

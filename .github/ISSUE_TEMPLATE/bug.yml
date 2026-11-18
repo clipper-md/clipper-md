@@ -1,0 +1,26 @@
+name: Bug report
+description: Something in the bot doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: forwarded
+    attributes:
+      label: What did you forward?
+      description: A link to the message if it is public, or a description (text, photo, album, video…).
+  - type: input
+    id: client
+    attributes:
+      label: Telegram app and device
+      placeholder: Telegram for iOS
